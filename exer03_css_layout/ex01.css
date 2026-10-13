@@ -1,0 +1,25 @@
+.header{
+    overflow: hidden;
+}
+
+.heder{
+    overflow: hidden;
+    border: 
+}
+
+.box{
+    color: black; 
+    width: 420px;
+    height: 200px;
+    border: 1px solid black;
+
+}
+.container{
+     color: black; 
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+   
+}
+

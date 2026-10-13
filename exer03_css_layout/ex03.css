@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Malgun Gothic', sans-serif;
+    padding: 20px;
+}
+
+#portfolio {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid white;
+}
+
+#top {
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+#top h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+#top p {
+    font-size: 14px;
+    color: white;
+}
+
+#nav {
+    background-color: lightgreen;
+}
+
+#nav ul {
+      list-style: none;
+    overflow: hidden;
+}
+
+#nav ul li {
+    float: left;
+    width: 199px;
+    text-align: center;
+}
+
+#nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 0;
+}
+
+
+#middle {
+    overflow: hidden;
+    background-color: pink;
+}
+
+#left {
+    float: left;
+    width: 250px;
+    background-color: pink;
+    padding: 25px 20px;
+    min-height: 450px;
+    border-right: 1px solid pink;
+}
+
+#left h2 {
+    color: lightcoral;
+    margin-bottom: 20px;
+}
+
+#left p {
+    color: black;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+#right {
+    float: right;
+    width: 250px;
+    background-color: pink;
+    padding: 25px 20px;
+    min-height: 450px;
+    border-left: 1px solid pink;
+}
+
+#right h2 {
+    color: lightcoral;
+    margin-bottom: 20px;
+}
+
+#right ul {
+    list-style: none;
+}
+
+#right ul li {
+    font-size: 13px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+#center {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 25px;
+    background-color: white;
+    min-height: 450px;
+}
+
+#center h2 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.project-box {
+    border: 1px solid pink;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.project-box h3 {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.project-box p {
+    color: black;
+}
+
+#bottom {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
