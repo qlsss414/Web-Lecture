@@ -10,14 +10,29 @@
         <div id="top">
             <h1>대구</h1>
         </div>
-        <div id="nav">
-            <ul>
+
+        <div id="box" style="width:200px; height:150px;
+    background-color: lightblue; text-align:center;">
+       <ul>
                 <li><a href="!">대구 소개</a> </li>
                 <li><a href="!">관광 명소</a></li>
                 <li><a href="!">먹거리</a></li>
                 <li><a href="!">축제</a></li>
                 <li><a href="!">여행 정보</a></li>
             </ul>
+
+    <script>
+        let box = document.querySelector("#box"); 
+          box.addEventListener("mouseover", function(){
+        box.style.backgroundColor = "skyblue";
+          });
+
+    box.addEventListener("mouseout", function(){
+        box.style.backgroundColor = "lightgray";
+    }); 
+
+            </script>
+    
         </div>
         <section calss="main" id="main">
             <div class="main2">
@@ -114,10 +129,6 @@
       
 
         
-      
-
-        
-
         
 </body>
 </html>
